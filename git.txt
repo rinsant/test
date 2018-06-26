@@ -1,0 +1,8 @@
+git init
+git add test.txt
+git commit -m 'test
+git remote add origin https://github.com/rinsant/HelloGit.git'
+git push origin master
+
+# if "fatal: remote origin already exists"
+# $ git remote rm origin
