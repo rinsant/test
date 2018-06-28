@@ -6,3 +6,12 @@ git push origin master
 
 # if "fatal: remote origin already exists"
 # $ git remote rm origin
+
+
+
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/rinsant/test.git
+git push -u origin master
